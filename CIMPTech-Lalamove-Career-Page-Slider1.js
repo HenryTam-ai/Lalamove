@@ -4,7 +4,6 @@ let slideIndex = 0;
       let i;
       let slides = document.getElementsByClassName("slide");
       let dots = document.getElementsByClassName("dot1");
-      console.log(slides);
       for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";  
       }
