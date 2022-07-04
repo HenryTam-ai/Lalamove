@@ -1,4 +1,4 @@
-var slide4Index = 1;
+    var slide4Index = 1;
     showSlides4(slide4Index);
 
     function plusSlides3(n) {
@@ -19,7 +19,7 @@ var slide4Index = 1;
             slides4[i].style.display = "none";  
         }
         for (i = 0; i < dots3.length; i++) {
-            dots3[i].className = dots3[i].className.replace(" active", "");
+            dots3[i].className = dots3[i].className.replace("text-slider-active", "");
         }
         slides4[slide4Index-1].style.display = "flex";  
         dots3[slide4Index-1].className += " text-slider-active";
