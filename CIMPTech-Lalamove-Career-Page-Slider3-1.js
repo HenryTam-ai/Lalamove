@@ -22,5 +22,5 @@
             dots2[i].className = dots2[i].className.replace("text-slider-active", "");
         }
         slides3[slide3Index-1].style.display = "flex";  
-        dots2[slide3Index-1].className += "text-slider-active";
+        dots2[slide3Index-1].className += " text-slider-active";
     }
